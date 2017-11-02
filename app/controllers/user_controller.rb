@@ -1,6 +1,7 @@
 class UserController < ApplicationController
 def index
     @users = User.all
+    @pets = Pet.all
   end
 
   def create

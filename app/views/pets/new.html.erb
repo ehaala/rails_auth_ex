@@ -1,0 +1,12 @@
+<h1>Add Your Pet!</h1>
+
+<%= form_for @pet do |t| %>
+  <div>
+  <%= t.label :name %>
+  <%= t.text_field :name %>
+  <%= t.hidden_field :user_id, :value => @current_user.id %>
+  <%= t.submit %>
+  </div>
+<% end %>
+
+<%= link_to 'Back to All Pets', '/pets', :class => "btn btn-primary"%>

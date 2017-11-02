@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background: black;
+	background-image: url('http://deskbg.com/i/c/1280x1024/wpp/18/18819/super-cute-puppies-desktop-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: copperplate;
+}
+
+.navbar {
+	background: black;
+	color: white;
+}
+
+.right {
+	float: right;
+	padding: 10px;
+}
+
+.btn {
+	margin: 5px;
+}
